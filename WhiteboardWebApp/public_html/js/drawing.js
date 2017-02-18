@@ -57,7 +57,7 @@ function mouseMoveFunc(event) {
 function getMousePos(event) {
     var rect = canvas.getBoundingClientRect();
     return {
-        x: event.pageX - rect.left,
+        x: event.pageX - rect.left,//,
         y: event.pageY - rect.top
     };
 }
